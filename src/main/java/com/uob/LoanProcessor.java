@@ -4,6 +4,7 @@ public class LoanProcessor {
     public void processLoan() {
         // TODO: add proper validation (Sonar will flag TODOs)
         System.out.println("Processing loan.x.");
-        int zero_div = 1 / 0;
+        int[] numbers = {1, 2, 3};
+        System.out.println(numbers[3]);
     }
 }
