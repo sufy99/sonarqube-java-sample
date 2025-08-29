@@ -5,7 +5,6 @@ public class Calculator {
         try {
             return a / b;
         } catch (Exception e) { // empty catch block
-            print("Error");
         }
         return 0;
     }
